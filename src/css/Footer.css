@@ -1,0 +1,67 @@
+.footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: rgb(154, 154, 154);
+    border-top: 5px solid rgb(57, 57, 57);
+    border-bottom: 5px solid rgb(57, 57, 57);
+}
+
+label {
+    color: gray;
+    margin: 30px;
+    padding: 10px;
+    
+}
+
+span {
+    padding-left: 4px;
+    text-align: center;
+}
+label span:hover{
+    text-decoration: underline;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 10px;
+    padding: 5px;
+    font-size: 13px;
+}
+
+nav li:hover {
+    text-decoration: underline;
+}
+
+select {
+    margin-left: 300px;
+    color: gray;
+    background-color: black;
+    width: 8rem;
+    height: 3rem;
+    padding: 10px auto;
+    font-size: 19px;
+}
+
+.last-of {
+    display: flex;
+    flex-direction: column;
+     color: gray;
+     justify-content: center;
+
+}
+.last {
+    margin-left: 300px;
+    font-size: 0.9rem;
+}
+
